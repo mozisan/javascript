@@ -1,0 +1,11 @@
+{
+  "name": "@mozisan/javascript",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "husky": "^2.4.0",
+    "lerna": "^3.14.1"
+  }
+}
