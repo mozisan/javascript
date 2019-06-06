@@ -27,6 +27,9 @@
       "language": "typescriptreact"
     }
   ],
+  "eslint.workingDirectories": [
+    { "directory": "./packages/eslint-config", "changeProcessCWD": true }
+  ],
   "javascript.format.enable": false,
   "typescript.format.enable": false,
   "typescript.tsdk": "./node_modules/typescript/lib"

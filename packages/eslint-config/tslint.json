@@ -1,0 +1,7 @@
+{
+  "extends": ["tslint-immutable"],
+  "rules": {
+    "prefer-readonly": true,
+    "readonly-keyword": [true, "ignore-class"]
+  }
+}
