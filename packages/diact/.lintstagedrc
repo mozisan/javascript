@@ -1,0 +1,6 @@
+{
+  "package.json": ["sort-package-json", "git add"],
+  ".*rc": ["prettier --write", "git add"],
+  "*.(md|json|js)": ["prettier --write", "git add"],
+  "src/**/*.(js|ts|tsx)": ["eslint --fix", "git add"]
+}

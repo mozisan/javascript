@@ -1,0 +1,13 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": ".{husky,lintstaged,prettier}rc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
