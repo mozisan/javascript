@@ -1,6 +1,6 @@
 {
   "name": "@mozisan/path-def",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Path definition utility",
   "homepage": "https://github.com/mozisan/javascript#readme",
   "bugs": {
