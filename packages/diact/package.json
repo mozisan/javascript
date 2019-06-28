@@ -1,6 +1,6 @@
 {
   "name": "@mozisan/diact",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "DI container for React",
   "homepage": "https://github.com/mozisan/javascript#readme",
   "bugs": {
