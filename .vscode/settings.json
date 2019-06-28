@@ -29,7 +29,8 @@
   ],
   "eslint.workingDirectories": [
     { "directory": "./packages/diact", "changeProcessCWD": true },
-    { "directory": "./packages/eslint-config", "changeProcessCWD": true }
+    { "directory": "./packages/eslint-config", "changeProcessCWD": true },
+    { "directory": "./packages/path-def", "changeProcessCWD": true }
   ],
   "javascript.format.enable": false,
   "typescript.format.enable": false,
