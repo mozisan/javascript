@@ -10,7 +10,9 @@ export const _ = <TKey extends string>(key: TKey): Arg<TKey> => ({
   extract: (params: StringMap<TKey>) => params[key],
 });
 
-type Path<TParams extends object = object> = [keyof TParams] extends [never]
+type Path<TParams extends object = object> = readonly [
+  keyof TParams,
+] extends readonly [never]
   ? {
       readonly stringified: string;
       readonly build: () => string;
@@ -24,7 +26,7 @@ type PathBuilder = {
   (values: TemplateStringsArray): Path;
   <TKey extends string>(
     values: TemplateStringsArray,
-    ...args: Arg<TKey>[]
+    ...args: readonly Arg<TKey>[]
   ): Path<StringMap<TKey>>;
 };
 
@@ -35,7 +37,12 @@ type PathInstanceOptions = {
 export const createPathInstance = ({
   paramPrefix,
 }: PathInstanceOptions): PathBuilder => {
-  return ((values: TemplateStringsArray, ...args: Arg<any>[]): Path<any> => {
+  return ((
+    values: TemplateStringsArray,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    ...args: readonly Arg<any>[]
+  ): // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  Path<any> => {
     const argKeyMap = args
       .map(({ key }) => key)
       .reduce((map, key) => ({ ...map, [key]: `${paramPrefix}${key}` }), {});
