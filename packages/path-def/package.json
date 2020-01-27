@@ -1,6 +1,6 @@
 {
   "name": "@mozisan/path-def",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Path definition utility",
   "homepage": "https://github.com/mozisan/javascript#readme",
   "bugs": {
@@ -28,7 +28,7 @@
     "transpile": "tsc -p ."
   },
   "devDependencies": {
-    "@mozisan/eslint-config": "^1.1.3",
+    "@mozisan/eslint-config": "^1.1.4",
     "@types/jest": "^24.9.1",
     "eslint": "^6.8.0",
     "husky": "^4.2.1",
