@@ -1,6 +1,6 @@
 {
   "name": "@mozisan/diact",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "DI container for React",
   "homepage": "https://github.com/mozisan/javascript#readme",
   "bugs": {
@@ -28,7 +28,7 @@
     "transpile": "tsc -p ."
   },
   "devDependencies": {
-    "@mozisan/eslint-config": "^1.1.6",
+    "@mozisan/eslint-config": "^1.1.7",
     "@types/jest": "^24.9.1",
     "@types/react": "^16.9.19",
     "@types/react-test-renderer": "^16.9.2",
