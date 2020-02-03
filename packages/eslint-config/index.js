@@ -69,7 +69,7 @@ module.exports = {
     '@typescript-eslint/strict-boolean-expressions': 'error',
     'filenames/match-regex': [
       'error',
-      '^(index|_?[a-z][a-z0-9]+(_[a-z][a-z0-9]+)*(\\.[a-z][a-z0-9]+)?)$',
+      '^(index(.d)?|_?[a-z][a-z0-9]+(_[a-z][a-z0-9]+)*(\\.[a-z][a-z0-9]+)?)$',
       true,
     ],
     'functional/immutable-data': [
