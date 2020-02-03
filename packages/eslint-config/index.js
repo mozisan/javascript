@@ -76,7 +76,6 @@ module.exports = {
       'error',
       { ignorePattern: ['module.exports'] },
     ],
-    'functional/no-conditional-statement': 'error',
     'functional/no-let': 'error',
     'functional/no-loop-statement': 'error',
     'functional/no-method-signature': 'error',
