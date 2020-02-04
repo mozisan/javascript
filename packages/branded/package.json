@@ -1,6 +1,6 @@
 {
   "name": "@mozisan/branded",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Branded type utility for TypeScript",
   "homepage": "https://github.com/mozisan/javascript#readme",
   "bugs": {
@@ -27,7 +27,7 @@
     "transpile": "tsc -p ."
   },
   "devDependencies": {
-    "@mozisan/eslint-config": "^1.1.9",
+    "@mozisan/eslint-config": "^1.1.10",
     "@types/jest": "^24.9.1",
     "eslint": "^6.8.0",
     "husky": "^4.2.1",
