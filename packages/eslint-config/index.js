@@ -79,6 +79,7 @@ module.exports = {
     'functional/no-let': 'error',
     'functional/no-loop-statement': 'error',
     'functional/no-method-signature': 'error',
+    'functional/prefer-readonly-type': 'error',
     'functional/prefer-type-literal': 'error',
     'import/first': 'error',
     'import/no-default-export': 'error',
